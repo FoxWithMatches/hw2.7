@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		EA0AF9EE273AF0F100DDC4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AF9ED273AF0F100DDC4B4 /* AppDelegate.swift */; };
 		EA0AF9F0273AF0F100DDC4B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AF9EF273AF0F100DDC4B4 /* SceneDelegate.swift */; };
-		EA0AF9F2273AF0F100DDC4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AF9F1273AF0F100DDC4B4 /* ViewController.swift */; };
 		EA0AF9F5273AF0F100DDC4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0AF9F3273AF0F100DDC4B4 /* Main.storyboard */; };
 		EA0AF9F7273AF0F300DDC4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0AF9F6273AF0F300DDC4B4 /* Assets.xcassets */; };
 		EA0AF9FA273AF0F300DDC4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0AF9F8273AF0F300DDC4B4 /* LaunchScreen.storyboard */; };
+		EA0AFA02273AF1AD00DDC4B4 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AFA01273AF1AD00DDC4B4 /* ContactListViewController.swift */; };
+		EA0AFA04273AF1E000DDC4B4 /* SectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AFA03273AF1E000DDC4B4 /* SectionListViewController.swift */; };
+		EA0AFA06273AF43300DDC4B4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AFA05273AF43300DDC4B4 /* Person.swift */; };
+		EA0AFA08273AF4ED00DDC4B4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AFA07273AF4ED00DDC4B4 /* DataManager.swift */; };
+		EA0AFA0A273AFF1C00DDC4B4 /* DetailContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AFA09273AFF1C00DDC4B4 /* DetailContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA0AF9EA273AF0F100DDC4B4 /* contactLIst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactLIst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0AF9ED273AF0F100DDC4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0AF9EF273AF0F100DDC4B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA0AF9F1273AF0F100DDC4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA0AF9F4273AF0F100DDC4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA0AF9F6273AF0F300DDC4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0AF9F9273AF0F300DDC4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA0AF9FB273AF0F300DDC4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0AFA01273AF1AD00DDC4B4 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		EA0AFA03273AF1E000DDC4B4 /* SectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListViewController.swift; sourceTree = "<group>"; };
+		EA0AFA05273AF43300DDC4B4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EA0AFA07273AF4ED00DDC4B4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EA0AFA09273AFF1C00DDC4B4 /* DetailContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				EA0AF9ED273AF0F100DDC4B4 /* AppDelegate.swift */,
 				EA0AF9EF273AF0F100DDC4B4 /* SceneDelegate.swift */,
-				EA0AF9F1273AF0F100DDC4B4 /* ViewController.swift */,
 				EA0AF9F3273AF0F100DDC4B4 /* Main.storyboard */,
+				EA0AFA09273AFF1C00DDC4B4 /* DetailContactViewController.swift */,
+				EA0AFA01273AF1AD00DDC4B4 /* ContactListViewController.swift */,
+				EA0AFA03273AF1E000DDC4B4 /* SectionListViewController.swift */,
+				EA0AFA05273AF43300DDC4B4 /* Person.swift */,
+				EA0AFA07273AF4ED00DDC4B4 /* DataManager.swift */,
 				EA0AF9F6273AF0F300DDC4B4 /* Assets.xcassets */,
 				EA0AF9F8273AF0F300DDC4B4 /* LaunchScreen.storyboard */,
 				EA0AF9FB273AF0F300DDC4B4 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0AF9F2273AF0F100DDC4B4 /* ViewController.swift in Sources */,
+				EA0AFA06273AF43300DDC4B4 /* Person.swift in Sources */,
+				EA0AFA08273AF4ED00DDC4B4 /* DataManager.swift in Sources */,
+				EA0AFA0A273AFF1C00DDC4B4 /* DetailContactViewController.swift in Sources */,
 				EA0AF9EE273AF0F100DDC4B4 /* AppDelegate.swift in Sources */,
 				EA0AF9F0273AF0F100DDC4B4 /* SceneDelegate.swift in Sources */,
+				EA0AFA04273AF1E000DDC4B4 /* SectionListViewController.swift in Sources */,
+				EA0AFA02273AF1AD00DDC4B4 /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +322,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
