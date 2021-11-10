@@ -64,19 +64,59 @@
 		EA0AF9EC273AF0F100DDC4B4 /* contactLIst */ = {
 			isa = PBXGroup;
 			children = (
-				EA0AF9ED273AF0F100DDC4B4 /* AppDelegate.swift */,
-				EA0AF9EF273AF0F100DDC4B4 /* SceneDelegate.swift */,
-				EA0AF9F3273AF0F100DDC4B4 /* Main.storyboard */,
-				EA0AFA09273AFF1C00DDC4B4 /* DetailContactViewController.swift */,
-				EA0AFA01273AF1AD00DDC4B4 /* ContactListViewController.swift */,
-				EA0AFA03273AF1E000DDC4B4 /* SectionListViewController.swift */,
-				EA0AFA05273AF43300DDC4B4 /* Person.swift */,
-				EA0AFA07273AF4ED00DDC4B4 /* DataManager.swift */,
+				EA33A4D0273B8DE70095BBBC /* Supports */,
+				EA33A4CF273B8DD60095BBBC /* Storyboard */,
+				EA33A4CC273B8D7A0095BBBC /* ViewControllers */,
+				EA33A4CD273B8DA90095BBBC /* Model */,
+				EA33A4CE273B8DB00095BBBC /* ServiceModel */,
 				EA0AF9F6273AF0F300DDC4B4 /* Assets.xcassets */,
-				EA0AF9F8273AF0F300DDC4B4 /* LaunchScreen.storyboard */,
 				EA0AF9FB273AF0F300DDC4B4 /* Info.plist */,
 			);
 			path = contactLIst;
+			sourceTree = "<group>";
+		};
+		EA33A4CC273B8D7A0095BBBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AFA01273AF1AD00DDC4B4 /* ContactListViewController.swift */,
+				EA0AFA09273AFF1C00DDC4B4 /* DetailContactViewController.swift */,
+				EA0AFA03273AF1E000DDC4B4 /* SectionListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA33A4CD273B8DA90095BBBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AFA05273AF43300DDC4B4 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA33A4CE273B8DB00095BBBC /* ServiceModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AFA07273AF4ED00DDC4B4 /* DataManager.swift */,
+			);
+			path = ServiceModel;
+			sourceTree = "<group>";
+		};
+		EA33A4CF273B8DD60095BBBC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AF9F3273AF0F100DDC4B4 /* Main.storyboard */,
+				EA0AF9F8273AF0F300DDC4B4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EA33A4D0273B8DE70095BBBC /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AF9ED273AF0F100DDC4B4 /* AppDelegate.swift */,
+				EA0AF9EF273AF0F100DDC4B4 /* SceneDelegate.swift */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

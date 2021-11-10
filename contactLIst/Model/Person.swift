@@ -15,6 +15,7 @@ struct Person {
         "\(name) \(surname)"
     }
 }
+
 extension Person {
     static func getPersonList() -> [Person] {
         var persons: [Person] = []
@@ -25,7 +26,10 @@ extension Person {
         let emails = DataManager.shared.emails.shuffled()
         
         for index in 0...9 {
-            let person = Person(name: names[index], surname: surnames[index], phone: phones[index], email: emails[index])
+            let person = Person(name: names[index],
+                                surname: surnames[index],
+                                phone: phones[index],
+                                email: emails[index])
             
             persons.append(person)
         }
