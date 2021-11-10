@@ -29,8 +29,6 @@ class ContactListViewController: UITableViewController {
         return cell
     }
     
-    // MARK: - Navigation
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let detailVC = segue.destination as? DetailContactViewController
         else { return }
